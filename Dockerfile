@@ -1,0 +1,4 @@
+FROM python:3.7-alpine
+LABEL Teddy Walter
+
+ENV PYTHONUNBUFFERED 1
