@@ -15,5 +15,5 @@
     - adding flake in requirements.txt
     - creation .flake8 file config in app
 
-6. WRITING TDD : TEST DRIVEN DEVELOPMENT
+6. WRITING TDD : TEST DRIVEN DEVELOPMENT : is simply when you write test before you write the code
     - docker-compose run app sh -c "python manage.py test" : command to run test
