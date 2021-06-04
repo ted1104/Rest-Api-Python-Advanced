@@ -1,3 +1,6 @@
 1. CONFIGURATION DOCKER FILE
 2. RUN DOCKER FILE 
-    - docker build .
+    - docker build . : this command after writing DockerFile
+    - docker-compose build : this command after writing docker-compose.yml
+
+3. CREATING DJANGO PROJECT
