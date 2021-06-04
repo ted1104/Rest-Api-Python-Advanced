@@ -20,3 +20,10 @@
 
 7. CREATE AN APP
     - docker-compose run app sh -c "python manage.py startapp core"
+
+
+8. CUSTOMER USER MODEL
+
+    - creating a model and userManager class
+    - in settings add AUTH_USER_MODEL = 'core.User'
+    - then migrate with command : docker-compose run app sh -c "python manage.py makemigrations core"
