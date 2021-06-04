@@ -17,3 +17,6 @@
 
 6. WRITING TDD : TEST DRIVEN DEVELOPMENT : is simply when you write test before you write the code
     - docker-compose run app sh -c "python manage.py test" : command to run test
+
+7. CREATE AN APP
+    - docker-compose run app sh -c "python manage.py startapp core"
