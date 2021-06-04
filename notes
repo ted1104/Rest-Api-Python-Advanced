@@ -6,9 +6,14 @@
 3. CREATING DJANGO PROJECT
     - docker-compose run app sh -c "django-admin.py startproject app ."
 
-4. ENABLE TRAVIS-CI for PROJECT in gITHUB
+4. ENABLE TRAVIS-CI for PROJECT in gITHUB :
+    Def : is a hosted continuous integration service used to build and test software projects hosted on GitHub 
+    Def : Travis CI permet non seulement de tester des applications ou logiciels en développement, mais aussi d’effectuer automatiquement leur déploiement. Travis CI est un outil gratuit pour les projets open source. 
     - creating .travis.yml with script CONFIGURATION
 
 5. ADDING FLAKE8 FOR LINTING
     - adding flake in requirements.txt
     - creation .flake8 file config in app
+
+6. WRITING TDD : TEST DRIVEN DEVELOPMENT
+    - docker-compose run app sh -c "python manage.py test" : command to run test
