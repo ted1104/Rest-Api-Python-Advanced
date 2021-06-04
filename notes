@@ -4,3 +4,11 @@
     - docker-compose build : this command after writing docker-compose.yml
 
 3. CREATING DJANGO PROJECT
+    - docker-compose run app sh -c "django-admin.py startproject app ."
+
+4. ENABLE TRAVIS-CI for PROJECT in gITHUB
+    - creating .travis.yml with script CONFIGURATION
+
+5. ADDING FLAKE8 FOR LINTING
+    - adding flake in requirements.txt
+    - creation .flake8 file config in app
