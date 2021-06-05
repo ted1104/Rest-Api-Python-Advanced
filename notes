@@ -27,3 +27,6 @@
     - creating a model and userManager class
     - in settings add AUTH_USER_MODEL = 'core.User'
     - then migrate with command : docker-compose run app sh -c "python manage.py makemigrations core"
+
+9. ADDING POSTGRES DATABASE TO DOCKER
+    - add service in docker file
