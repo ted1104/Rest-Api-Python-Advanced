@@ -32,3 +32,5 @@
     - add service in docker file
     - in requirements.txt adding : psycopg2 : this package is recommended by django to communicate with postgressql
     - in dockerfile add line 7,8,11
+
+10 . USING MOCK
